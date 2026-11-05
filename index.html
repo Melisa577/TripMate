@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TripMate | Travel Planner</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">TripMate</div>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#planner">Plan Your Trip</a>
+        </div>
+
+        <a href="#planner" class="nav-button">Start Exploring</a>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+            <p class="subtitle">EXPLORE THE WORLD WITH US</p>
+
+            <h1>
+                Discover Your<br>
+                Next Adventure.
+            </h1>
+
+            <p class="hero-text">
+                Explore beautiful places and create
+                unforgettable travel experiences.
+            </p>
+
+            <a href="#planner" class="main-button">
+                Plan Your Journey →
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- Trip Planner -->
+    <section class="planner" id="planner">
+
+        <div class="section-heading">
+            <p class="subtitle">YOUR JOURNEY STARTS HERE</p>
+            <h2>Plan Your Trip</h2>
+        </div>
+
+        <div class="planner-form">
+
+
+            <div class="form-group">
+    <label for="destination">Destination</label>
+
+    <select id="destination">
+        <option value="">Select your destination</option>
+        <option value="istanbul">Istanbul</option>
+        <option value="paris">Paris</option>
+        <option value="rome">Rome</option>
+        <option value="barcelona">Barcelona</option>
+        <option value="bangkok">Bangkok</option>
+        <option value="santorini">Santorini</option>
+        <option value="bali">Bali</option>
+        <option value="hawaii">Hawaii</option>
+        <option value="tokyo">Tokyo</option>
+    </select>
+</div>
+
+
+            <div class="input-group">
+                <label>Number of Days</label>
+                <input
+                    type="number"
+                    id="days"
+                    placeholder="choose between 1- 365"
+                    min="1"
+                    max="365"
+                    step="1"
+                >
+            </div>
+
+            <button onclick="planTrip()" class="plan-button">
+                Create My Trip
+            </button>
+
+        </div>
+
+        <h3 id="result"></h3>
+
+    </section>
+
+
+    <!-- Popular Destinations -->
+    <section class="destinations" id="destinations">
+
+        <div class="section-heading">
+            <p class="subtitle">FIND YOUR INSPIRATION</p>
+            <h2>Popular Destinations</h2>
+        </div>
+
+        <div class="destination-slider">
+
+    <button class="slider-btn" onclick="moveSlider(-1)">
+        &#10094;
+    </button>
+
+    <div class="destination-grid" id="destinationGrid">
+
+        <a href="destination.html" class="destination-link">
+
+    <div class="destination-card istanbul">
+        <div class="card-info">
+            <h3>Istanbul</h3>
+            <p>Turkiye</p>
+        </div>
+    </div>
+
+
+        
+        <a href="paris.html" class="destination-link">
+    <div class="destination-card paris">
+        <div class="card-info">
+            <h3>Paris</h3>
+            <p>France</p>
+        </div>
+    </div>
+</a>
+
+        <a href="rome.html" class="destination-link">
+    <div class="destination-card rome">
+        <div class="card-info">
+            <h3>Rome</h3>
+            <p>Italy</p>
+        </div>
+    </div>
+</a>
+
+        <a href="barcelona.html" class="destination-link">
+    <div class="destination-card barcelona">
+        <div class="card-info">
+            <h3>Barcelona</h3>
+            <p>Spain</p>
+        </div>
+    </div>
+</a>
+        <a href="bangkok.html" class="destination-link">
+    <div class="destination-card bangkok">
+        <div class="card-info">
+            <h3>Bangkok</h3>
+            <p>Thailand</p>
+        </div>
+    </div>
+</a>
+        <a href="santorini.html" class="destination-link">
+    <div class="destination-card santorini">
+        <div class="card-info">
+            <h3>Santorini</h3>
+            <p>Greece</p>
+        </div>
+    </div>
+</a>
+
+        <a href="bali.html" class="destination-link">
+    <div class="destination-card bali">
+        <div class="card-info">
+            <h3>Bali</h3>
+            <p>Indonesia</p>
+        </div>
+    </div>
+</a>
+
+       <a href="hawaii.html" class="destination-link">
+    <div class="destination-card hawaii">
+        <div class="card-info">
+            <h3>Hawaii</h3>
+            <p>USA</p>
+        </div>
+    </div>
+</a>
+
+        <a href="tokyo.html" class="destination-link">
+    <div class="destination-card tokyo">
+        <div class="card-info">
+            <h3>tokyo</h3>
+            <p>japan</p>
+        </div>
+    </div>
+</a>
+
+        
+    </div>
+
+    <button class="slider-btn" onclick="moveSlider(1)">
+        &#10095;
+    </button>
+
+    </div>
+
+    </section>
+
+
+   <footer class="site-footer">
+    <p class="footer-tagline">
+        Explore more, worry less.
+    </p>
+
+    <p class="footer-credit">
+         
+    </p>
+    <p class="footer-credit">
+        Designed & Developed by Melisa Lotfi Azar
+    </p>
+
+    <p class="footer-copyright">
+        © 2026 TripMate All rights reserved.
+    </p>
+    <p class="footer-credit"></p>
+
+     <div class="footer-links">
+        <a href="https://github.com/Melisa577" target="_blank">
+            GitHub
+        </a>
+        <span class="footer-divider">|</span>
+        <a href="mailto:melisaazar682@gmail.com">
+            Email
+        </a>
+    </div>
+
+</footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

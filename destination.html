@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explore Istanbul | TripMate</title>
+
+    <link rel="stylesheet" href="destination.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+
+        <div class="logo">TripMate</div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#destinations">Destinations</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Destination Hero -->
+    <section class="destination-hero">
+
+        <div class="hero-content">
+
+            <p>EXPLORE TURKIYE</p>
+
+            <h1>Discover Istanbul</h1>
+
+            <span>
+                Explore the beauty, history and culture
+                of this amazing city.
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- City Information -->
+    <section class="city-info">
+
+        <h2>Know Before You Go</h2>
+
+        <div class="info-grid">
+
+            <!-- Language -->
+            <div class="info-card">
+                <h3>Language</h3>
+                <p>Turkish</p>
+            </div>
+
+            <!-- Currency -->
+            <div class="info-card">
+                <h3>Currency</h3>
+                <p>Turkish Lira (TRY)</p>
+            </div>
+
+            <!-- Climate -->
+            <div class="info-card">
+                <h3>Climate</h3>
+                <p>Mild and variable</p>
+            </div>
+
+            <!-- Best Time -->
+            <div class="info-card">
+                <h3>Best Time to Visit</h3>
+                <p>Spring and Autumn</p>
+            </div>
+
+        </div>
+
+
+        <!-- Travel Tips -->
+        <div class="travel-tips">
+
+            <h3>Travel Tips</h3>
+
+            <p>
+                Use public transportation, carry an Istanbulkart
+                and check local customs before visiting
+                religious sites.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Top Attractions -->
+    <section class="attractions">
+
+        <h2>Top Attractions</h2>
+
+        <p class="section-description">
+            Discover the most beautiful places in Istanbul.
+        </p>
+
+
+        <div class="attraction-grid">
+
+            <!-- Attraction 1 -->
+            <div class="attraction-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?w=800"
+                    alt="Hagia Sophia"
+                >
+
+                <div class="attraction-info">
+
+                    <h3>Hagia Sophia</h3>
+
+                    <p>
+                        A historic landmark known for its impressive
+                        architecture and rich history.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Attraction 2 -->
+            <div class="attraction-card">
+
+                <img
+                    src="https://istanbulclues.com/wp-content/uploads/2022/09/Where-V8-Beyoglu-Shutterstock.jpg"
+                    alt="istiklal avenue"
+                >
+
+                <div class="attraction-info">
+
+                    <h3>istiklal avenue </h3>
+
+                    <p>
+                       Istanbul's most famous pedestrian avenue, stretching 1.4 kilometers from Taksim Square to Tünel Square.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Attraction 3 -->
+            <div class="attraction-card">
+                
+                <img
+                    src="https://media.istockphoto.com/id/2185115326/photo/aerial-view-of-historic-galata-tower-and-vibrant-cityscape-of-istanbul-iconic-galata-tower-in.jpg?s=612x612&w=0&k=20&c=Psm8pFJ-10ahUv1LjpSIGyvP4mlqgy-iO8UwT5dMoUA="
+                    alt="Galata Tower"
+                >
+
+                <div class="attraction-info">
+
+                    <h3>Galata Tower</h3>
+
+                    <p>
+                        Enjoy a beautiful panoramic view of
+                        Istanbul from this historic tower.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Local Food -->
+
+<section class="local-food">
+
+    <h2>Taste of Istanbul</h2>
+
+    <p class="section-description">
+        Discover the delicious flavors of Istanbul.
+    </p>
+
+    <div class="food-slider">
+
+        <button class="food-btn" onclick="moveFood(-1)">
+            &#10094;
+        </button>
+
+        <div class="food-track" id="foodTrack">
+
+            <!-- Food 1 -->
+            <div class="food-card">
+
+                <img
+                    src="https://img.magnific.com/premium-photo/turkish-kebab-adana-kebab_641159-1248.jpg?semt=ais_hybrid&w=740&q=80"
+                    alt="Kebab"
+                >
+
+                <div class="food-info">
+                    <h3>Turkish Kebab</h3>
+
+                    <p>
+                        Grilled meat, spices, tomatoes and
+                        traditional Turkish seasonings.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- Food 2 -->
+            <div class="food-card">
+
+                <img
+                    src="https://png.pngtree.com/thumb_back/fw800/background/20240125/pngtree-assortment-of-ramadan-dessert-baklava-on-green-table-image_15568298.png"
+                    alt="Baklava"
+                >
+
+                <div class="food-info">
+                    <h3>Baklava</h3>
+
+                    <p>
+                        Thin pastry layers filled with pistachios
+                        or walnuts and sweet syrup.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- Food 3 -->
+            <div class="food-card">
+
+                <img
+                    src="https://images.pexels.com/photos/35450881/pexels-photo-35450881.jpeg"
+                    alt="Turkish Breakfast"
+                >
+
+                <div class="food-info">
+                    <h3>Turkish Breakfast</h3>
+
+                    <p>
+                        Cheese, olives, eggs, tomatoes, cucumbers
+                        and fresh bread.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- Food 4 -->
+            <div class="food-card">
+
+                <img
+                    src="https://img.magnific.com/free-photo/pide-lahmajun-served-with-salad-greens-lemon-lentil-soup-ayran_140725-8755.jpg?semt=ais_hybrid&w=740&q=80"
+                    alt="Turkish Pide"
+                >
+
+                <div class="food-info">
+                    <h3>Turkish Pide</h3>
+
+                    <p>
+                        Boat-shaped dough topped with cheese,
+                        minced meat or vegetables.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <button class="food-btn" onclick="moveFood(1)">
+            &#10095;
+        </button>
+
+    </div>
+
+</section>
+
+    <!-- Daily Travel Budget -->
+
+<section class="daily-budget">
+
+    <h2>Daily Travel Budget</h2>
+
+    <p class="section-description">
+        A simple estimate of your daily expenses in Istanbul.
+    </p>
+
+    <div class="budget-grid">
+
+        <div class="budget-card">
+            <span class="budget-icon">🏨</span>
+            <h3>Accommodation</h3>
+            <p>Hotel or hostel</p>
+            <strong>€30–80</strong>
+        </div>
+
+        <div class="budget-card">
+            <span class="budget-icon">🍽️</span>
+            <h3>Food</h3>
+            <p>Meals and drinks</p>
+            <strong>€15–35</strong>
+        </div>
+
+        <div class="budget-card">
+            <span class="budget-icon">🚋</span>
+            <h3>Transport</h3>
+            <p>Public transportation</p>
+            <strong>€5–10</strong>
+        </div>
+
+        <div class="budget-card">
+            <span class="budget-icon">🎟️</span>
+            <h3>Activities</h3>
+            <p>Museums and attractions</p>
+            <strong>€10–30</strong>
+        </div>
+
+    </div>
+
+    <p class="budget-note">
+        These are example estimates, not live prices.
+        Actual costs depend on your travel style and season.
+    </p>
+
+
+    <!-- One Day Itinerary -->
+
+<section class="itinerary">
+
+    <h2>One Day in Istanbul</h2>
+
+    <p class="section-description">
+        A suggested route to explore Istanbul in one day.
+    </p>
+
+    <div class="itinerary-list">
+
+        <div class="itinerary-item">
+
+            <img
+                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/3a/2c/dd/istanbul-36h-basilica.jpg?w=900&h=-1&s=1"
+                alt="Basilica Cistern"
+            >
+
+            <div class="itinerary-info">
+                <span>09:00 AM</span>
+                <h3>Basilica Cistern</h3>
+                <p>
+                    Start your day by exploring this 6th-century underground water reservoir in Istanbul.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="itinerary-item">
+
+            <img
+                src="https://upload.wikimedia.org/wikipedia/commons/3/38/S%C3%BCleymaniyeMosqueIstanbul_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+                alt="Blue Mosque"
+            >
+
+            <div class="itinerary-info">
+                <span>11:00 AM</span>
+                <h3>Blue Mosque</h3>
+                <p>
+                    Visit the beautiful mosque and admire
+                    its impressive architecture.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="itinerary-item">
+
+            <img
+                src="https://www.egypttoursplus.com/wp-content/uploads/2025/07/picture-of-the-shops-inside-the-Egyptian-or-Spice-Bazaar-in-Istanbul.jpg"
+                alt="Grand Bazaar"
+            >
+
+            <div class="itinerary-info">
+                <span>03:00 PM</span>
+                <h3>Grand Bazaar</h3>
+                <p>
+                    Explore the historic marketplace and enjoy the culture and traditional atmosphere.
+                </p>
+            </div>
+
+        </div>
+
+         <div class="itinerary-item">
+
+            <img
+                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/a6/ee/26/the-cradle-of-exquisite.jpg"
+                alt="A Restaurant in Fatih"
+            >
+
+            <div class="itinerary-info">
+                <span>07:00 PM</span>
+                <h3> Dinner at Fatih </h3>
+                <p>
+                    Enjoy a fancy night life with stunning views of the Bosphorus in Istanbul.
+                </p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- Photo Spots -->
+    <div class="photo-spots">
+
+        <h2>Best Photo Spots</h2>
+
+        <div class="photo-grid">
+
+            <div class="photo-card">
+                <img
+                    src="https://www.guidaistanbul.com/wp-content/uploads/2021/12/bosforo-barca.jpg"
+                    alt="Bosphorus view"
+                >
+
+                <h3>Bosphorus</h3>
+                <p>a world-famous natural strait and an internationally significant waterway</p>
+                <a href="https://maps.google.com/?q=Bosphorus+Istanbul" target="_blank">
+                    View Location
+                </a>
+            </div>
+
+
+            <div class="photo-card">
+                <img
+                    src="https://avatars.mds.yandex.net/get-altay/18105299/2a0000019e40186fb40c27b74e45ab084984/orig"
+                    alt="Girl Tower"
+                >
+
+                <h3>Girl Tower</h3>
+                <p>a tower on a small islet at the southern entrance of the Bosphorus strait</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=K%C4%B1z+Kulesi+Istanbul" target="_blank">
+                    View Location
+                </a>
+
+
+            </div>
+
+
+            <div class="photo-card">
+                <img
+                    src="https://aws-tiqets-cdn.imgix.net/images/content/612a35e6af2b41358ca9b749621fc666.png?auto=format%2Ccompress&fit=crop&q=70"
+                    alt="dolmabahce palace"
+                >
+
+                <h3>dolmabahce palace</h3>
+                <p>an imperial palace located along the European shore of the Bosporus</p>
+               <a href="https://www.google.com/maps/search/?api=1&query=Dolmabahce+Palace%2C+Istanbul" target="_blank" rel="noopener noreferrer">
+                    View Location
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</section>
+
+  <!-- JavaScript -->
+    <script src="destination.js"></script>
+
+</body>
+
+</html>

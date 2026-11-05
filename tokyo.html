@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explore Tokyo | TripMate</title>
+
+    <link rel="stylesheet" href="destination.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+
+        <div class="logo">TripMate</div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#destinations">Destinations</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Destination Hero -->
+    <section class="destination-hero tokyo-hero">
+
+        <div class="hero-content">
+
+            <p>EXPLORE JAPAN</p>
+
+            <h1>Discover Tokyo</h1>
+
+            <span>
+                Explore the beauty, history and culture
+                of this amazing city.
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- City Information -->
+    <section class="city-info">
+
+        <h2>Know Before You Go</h2>
+
+        <div class="info-grid">
+
+            <!-- Language -->
+            <div class="info-card">
+                <h3>Language</h3>
+                <p>Japanese</p>
+            </div>
+
+            <!-- Currency -->
+            <div class="info-card">
+                <h3>Currency</h3>
+                <p>Japanese Yen (JPY)</p>
+            </div>
+
+            <!-- Climate -->
+            <div class="info-card">
+                <h3>Climate</h3>
+                <p>Humid Subtropical</p>
+            </div>
+
+            <!-- Best Time -->
+            <div class="info-card">
+                <h3>Best Time to Visit</h3>
+                <p>Spring and Fall</p>
+            </div>
+
+        </div>
+
+
+        <!-- Travel Tips -->
+        <div class="travel-tips">
+
+            <h3>Travel Tips</h3>
+
+            <p>
+                Use a prepaid transit card, carry some cash, keep your voice low on public transport, and check opening hours before visiting attractions.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Top Attractions -->
+    <section class="attractions">
+
+        <h2>Top Attractions</h2>
+
+        <p class="section-description">
+            Discover the most beautiful places in Tokyo.
+        </p>
+
+
+        <div class="attraction-grid">
+
+            <!-- Attraction 1 -->
+            <div class="attraction-card">
+
+                <img
+                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy8LCksh19W5KlEfqPXW2fyAhplq1zpDOfj6dHCbEAA6WScv6_HQhIftgw&s=10"
+                     alt="teamLab Planets"
+                >
+
+                <div class="attraction-info">
+
+                    <h3>teamLab Planets</h3>
+
+                    <p>
+                        Explore immersive digital art installations that surround you with light, color, and movement.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Attraction 2 -->
+            <div class="attraction-card">
+
+                <img
+                    src="https://www.discoverasr.com/content/dam/tal/media/images/destinations/japan/tokyo/shinjuku-gyoen-national-garden-tokyo.jpg"
+                    alt="Shinjuku Gyoen"
+                >
+
+                <div class="attraction-info">
+
+                    <h3>Shinjuku Gyoen National Garden</h3>
+
+                    <p>
+                        Relax among beautiful gardens, peaceful paths, and seasonal flowers in the heart of Tokyo.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Attraction 3 -->
+            <div class="attraction-card">
+
+                <img
+                    src="https://japanforkids.jp/wp-content/uploads/2026/03/jfk_photo_tokyo-national-museum_gm_1773810043.jpg"
+                    alt="Tokyo National Museum"
+                >
+
+                <div class="attraction-info">
+
+                    <h3>Tokyo National Museum</h3>
+
+                    <p>
+                        Discover Japanese art, history, and cultural treasures in one of the country’s major museums.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Local Food -->
+
+    <section class="local-food">
+
+        <h2>Taste of Tokyo</h2>
+
+        <p class="section-description">
+            Discover the delicious flavors of Tokyo.
+        </p>
+
+        <div class="food-slider">
+
+            <button class="food-btn" onclick="moveFood(-1)">
+                &#10094;
+            </button>
+
+            <div class="food-track" id="foodTrack">
+
+                <!-- Food 1 -->
+                <div class="food-card">
+
+                    <img
+                        src="https://takestwoeggs.com/wp-content/uploads/2025/02/Sushi-at-home.jpg"
+                        alt="Sushi"
+                    >
+
+                    <div class="food-info">
+                        <h3>Sushi</h3>
+
+                        <p>
+                            A Japanese dish made with seasoned rice and ingredients such as seafood and vegetables.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- Food 2 -->
+                <div class="food-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624"
+                        alt="Ramen"
+                    >
+
+                    <div class="food-info">
+                        <h3>Ramen</h3>
+
+                        <p>
+                            A comforting noodle soup served with broth, toppings, and flavorful ingredients.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- Food 3 -->
+                <div class="food-card">
+
+                    <img
+                        src="https://images.food52.com/f0EcbMbweY5K8LBVfpdsqLe6ftM=/4af6259a-a896-4b8c-9755-c488ca771852--2021-1019_tempura_3x2_julia-gartland_297.jpg"
+                        alt="Tempura"
+                    >
+
+                    <div class="food-info">
+                        <h3>Tempura</h3>
+
+                        <p>
+                            Seafood or vegetables lightly battered and deep-fried until crispy.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- Food 4 -->
+                <div class="food-card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7"
+                        alt="Matcha"
+                    >
+
+                    <div class="food-info">
+                        <h3>Matcha</h3>
+
+                        <p>
+                            A traditional Japanese green tea known for its distinctive flavor and vibrant color.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button class="food-btn" onclick="moveFood(1)">
+                &#10095;
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Daily Travel Budget -->
+
+    <section class="daily-budget">
+
+        <h2>Daily Travel Budget</h2>
+
+        <p class="section-description">
+            A simple estimate of your daily expenses in Tokyo.
+        </p>
+
+        <div class="budget-grid">
+
+            <div class="budget-card">
+                <span class="budget-icon">🏨</span>
+                <h3>Accommodation</h3>
+                <p>Hotel or hostel</p>
+                <strong>€34–84</strong>
+            </div>
+
+            <div class="budget-card">
+                <span class="budget-icon">🍽️</span>
+                <h3>Food</h3>
+                <p>Meals and drinks</p>
+                <strong>€17–34</strong>
+            </div>
+
+            <div class="budget-card">
+                <span class="budget-icon">🚇</span>
+                <h3>Transport</h3>
+                <p>Public transportation</p>
+                <strong>€5–11</strong>
+            </div>
+
+            <div class="budget-card">
+                <span class="budget-icon">🎟️</span>
+                <h3>Activities</h3>
+                <p>Museums and attractions</p>
+                <strong>€5–30</strong>
+            </div>
+
+        </div>
+
+        <p class="budget-note">
+            These are example estimates, not live prices.
+            Actual costs depend on your travel style and season.
+        </p>
+
+
+        <!-- One Day Itinerary -->
+
+        <section class="itinerary">
+
+            <h2>One Day in Tokyo</h2>
+
+            <p class="section-description">
+                A suggested route to explore Tokyo in one day.
+            </p>
+
+            <div class="itinerary-list">
+
+                <div class="itinerary-item">
+
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ECTF7R7ToGdj10eT4aikmoVrlRYOvr_dX_azU4u018qaX44R_XLSgb06&s=10"
+                        alt="Meiji Shrine"
+                    >
+
+                    <div class="itinerary-info">
+                        <span>09:00 AM</span>
+                        <h3>Meiji Shrine</h3>
+
+                        <p>
+                            Start your day with a peaceful walk through the forested grounds of this famous shrine.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="itinerary-item">
+
+                    <img
+                        src="https://cdn.getyourguide.com/img/tour/5d70b42b804de.jpeg/148.jpg"
+                        alt="Yanaka Ginza"
+                    >
+
+                    <div class="itinerary-info">
+                        <span>11:30 AM</span>
+                        <h3>Yanaka Ginza</h3>
+
+                        <p>
+                            Explore this nostalgic shopping street, browse local shops, and try traditional Japanese snacks.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="itinerary-item">
+
+                    <img
+                        src="https://www.advantour.com/img/japan/tokyo/senso-ji-temple/senso-ji-temple2.jpg"
+                        alt="Senso-ji Temple"
+                    >
+
+                    <div class="itinerary-info">
+                        <span>02:00 PM</span>
+                        <h3>Asakusa and Senso-ji</h3>
+
+                        <p>
+                            Discover traditional Tokyo around the temple and Nakamise shopping street.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="itinerary-item">
+
+                    <img
+                        src="https://d3w13n53foase7.cloudfront.net/medium_49727a2a_01f3_4657_90be_5e54f0df8ba3_8577879288_3740bfb1ba_k_889b8c5b5b.jpg"
+                        alt="Shimokitazawa"
+                    >
+
+                    <div class="itinerary-info">
+                        <span>06:00 PM</span>
+                        <h3>Shimokitazawa</h3>
+
+                        <p>
+                            End your day among vintage shops, cozy cafés, and the neighborhood’s creative atmosphere.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Photo Spots -->
+            <div class="photo-spots">
+
+                <h2>Best Photo Spots</h2>
+
+                <div class="photo-grid">
+
+                    <div class="photo-card">
+
+                        <img
+                            src="https://shibuyacrossing.org/wp-content/uploads/2024/11/shibuya-crossing-tokyo-japan-night-view-1.jpeg"
+                            alt="Shibuya Crossing"
+                        >
+
+                        <h3>Shibuya Crossing</h3>
+
+                        <p>
+                            Capture the energy of Tokyo at its famous pedestrian crossing.
+                        </p>
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=Shibuya+Crossing+Tokyo" target="_blank" rel="noopener noreferrer">
+                            View Location
+                        </a>
+
+                    </div>
+
+
+                    <div class="photo-card">
+
+                        <img
+                            src="https://cdn.tickadoo.com/cdn-cgi/image/width=1600,height=1000,fit=cover,format=auto,quality=75/products/hQdjuySmIn7Ro7d8eEWeiaFOro.jpg"
+                            alt="Tokyo Tower"
+                        >
+
+                        <h3>Tokyo Tower</h3>
+
+                        <p>
+                            Take photos of the iconic tower and the surrounding city skyline.
+                        </p>
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=Tokyo+Tower" target="_blank" rel="noopener noreferrer">
+                            View Location
+                        </a>
+
+                    </div>
+
+
+                    <div class="photo-card">
+
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/7/75/Cloudy_Sens%C5%8D-ji.jpg?utm_source=tr.wikipedia.org&utm_campaign=index&utm_content=original"
+                            alt="Senso-ji Temple"
+                        >
+
+                        <h3>Senso-ji Temple</h3>
+
+                        <p>
+                            Photograph the temple’s traditional architecture and lively surroundings.
+                        </p>
+
+                        <a href="https://www.google.com/maps/search/?api=1&query=Senso-ji+Temple+Tokyo" target="_blank" rel="noopener noreferrer">
+                            View Location
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </section>
+
+
+    <!-- JavaScript -->
+    <script src="destination.js"></script>
+
+</body>
+
+</html>

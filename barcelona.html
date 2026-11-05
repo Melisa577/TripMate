@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explore barcelona | TripMate</title>
+
+    <link rel="stylesheet" href="destination.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+
+        <div class="logo">TripMate</div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#destinations">Destinations</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Destination Hero -->
+   <section class="destination-hero barcelona-hero">
+
+        <div class="hero-content">
+
+            <p>EXPLORE SPAIN</p>
+
+            <h1>Discover Barcelona</h1>
+
+            <span>
+                Explore the beauty, history and culture
+                of this amazing city.
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- City Information -->
+    <section class="city-info">
+
+        <h2>Know Before You Go</h2>
+
+        <div class="info-grid">
+
+            <!-- Language -->
+            <div class="info-card">
+                <h3>Language</h3>
+                <p>Spanish and Catalan</p>
+            </div>
+
+            <!-- Currency -->
+            <div class="info-card">
+                <h3>Currency</h3>
+                <p>Euro (EUR)</p>
+            </div>
+
+            <!-- Climate -->
+            <div class="info-card">
+                <h3>Climate</h3>
+                <p>Mediterranean</p>
+            </div>
+
+            <!-- Best Time -->
+            <div class="info-card">
+                <h3>Best Time to Visit</h3>
+                <p>Spring and Summer</p>
+            </div>
+
+        </div>
+
+
+        <!-- Travel Tips -->
+        <div class="travel-tips">
+
+            <h3>Travel Tips</h3>
+
+            <p>
+                Use public transportation to get around, Keep an eye on your belongings in crowded places and tourist areas, Learn a few basic Spanish or Catalan phrases.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Top Attractions -->
+    <section class="attractions">
+
+        <h2>Top Attractions</h2>
+
+        <p class="section-description">
+            Discover the most beautiful places in barcelona.
+        </p>
+
+
+        <div class="attraction-grid">
+
+            <!-- Attraction 1 -->
+            <div class="attraction-card">
+
+                <img
+                    src="https://cdn.getyourguide.com/image/format=avif%2Cfit=cover%2Cgravity=auto%2Cquality=60/dam/iStock-2274340540-HEADER%20MOBILE-2XuDILyz.jpg"
+                    alt="Park Güell"
+                >
+
+                <div class="attraction-info">
+
+                    <h3>Park Güell</h3>
+
+                    <p>
+                        Explore colorful mosaics, creative architecture, and beautiful views of Barcelona.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Attraction 2 -->
+            <div class="attraction-card">
+
+                <img
+                    src="https://storage.googleapis.com/images.alltrippers.com/202400144712_casa-batllo-gaudi-barcelone.jpeg"
+                    alt="Casa Batlló"
+                >
+
+                <div class="attraction-info">
+
+                    <h3>Casa Batlló</h3>
+
+                    <p>
+                       Discover one of Gaudí’s most famous buildings with its colorful and unusual design.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Attraction 3 -->
+            <div class="attraction-card">
+                
+                <img
+                    src="https://images.musement.com/cover/0135/58/thumb_13457282_cover_header.jpeg"
+                    alt="Gothic Quarter"
+                >
+
+                <div class="attraction-info">
+
+                    <h3>Gothic Quarter</h3>
+
+                    <p>
+                       Walk through narrow medieval streets, charming squares, and historic buildings.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Local Food -->
+
+<section class="local-food">
+
+    <h2>Taste of Barcelona</h2>
+
+    <p class="section-description">
+        Discover the delicious flavors of Barcelona.
+    </p>
+
+    <div class="food-slider">
+
+        <button class="food-btn" onclick="moveFood(-1)">
+            &#10094;
+        </button>
+
+        <div class="food-track" id="foodTrack">
+
+            <!-- Food 1 -->
+            <div class="food-card">
+
+                <img
+                    src="https://imgrosetta.yemek.com/file/144849/144849-1200x675.jpg"
+                    alt="Tapas"
+                >
+
+                <div class="food-info">
+                    <h3>Tapas</h3>
+
+                    <p>
+                       Small Spanish dishes with different flavors, perfect for sharing.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- Food 2 -->
+            <div class="food-card">
+
+                <img
+                    src="https://res.cloudinary.com/hksqkdlah/image/upload/c_fill,dpr_2.0,f_auto,fl_lossy.progressive.strip_profile,g_faces:auto,q_auto:low/CI%20SFS/SO26/SFS_Pa_Amb_Tomaquet-123"
+                    alt="Pa amb Tomàquet"
+                >
+
+                <div class="food-info">
+                    <h3>Pa amb Tomàquet</h3>
+
+                    <p>
+                        Traditional Catalan bread topped with fresh tomato and olive oil.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- Food 3 -->
+            <div class="food-card">
+
+                <img
+                    src="https://www.biggerbolderbaking.com/wp-content/uploads/2015/04/BBB69-Churros-Chocolate-Thumbnail-v.1.jpg"
+                    alt="Churros"
+                >
+
+                <div class="food-info">
+                    <h3>Churros</h3>
+
+                    <p>
+                        Fried dough pastries commonly served with thick hot chocolate.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- Food 4 -->
+            <div class="food-card">
+
+                <img
+                    src="https://ibericotaste.us/cdn/shop/articles/horchata-blog-post.jpg?v=1722251050"
+                    alt="Horchata de Chufa"
+                >
+
+                <div class="food-info">
+                    <h3>Horchata de Chufa</h3>
+
+                    <p>
+                        A traditional Spanish drink made from tiger nuts, water, and sugar. It is usually served cold.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <button class="food-btn" onclick="moveFood(1)">
+            &#10095;
+        </button>
+
+    </div>
+
+</section>
+
+    <!-- Daily Travel Budget -->
+
+<section class="daily-budget">
+
+    <h2>Daily Travel Budget</h2>
+
+    <p class="section-description">
+        A simple estimate of your daily expenses in barcelona.
+    </p>
+
+    <div class="budget-grid">
+
+        <div class="budget-card">
+            <span class="budget-icon">🏨</span>
+            <h3>Accommodation</h3>
+            <p>Hotel or hostel</p>
+            <strong>€70–150</strong>
+        </div>
+
+        <div class="budget-card">
+            <span class="budget-icon">🍽️</span>
+            <h3>Food</h3>
+            <p>Meals and drinks</p>
+            <strong>€25–50</strong>
+        </div>
+
+        <div class="budget-card">
+            <span class="budget-icon">🚋</span>
+            <h3>Transport</h3>
+            <p>Public transportation</p>
+            <strong>€3–12</strong>
+        </div>
+
+        <div class="budget-card">
+            <span class="budget-icon">🎟️</span>
+            <h3>Activities</h3>
+            <p>Museums and attractions</p>
+            <strong>€10–50</strong>
+        </div>
+
+    </div>
+
+    <p class="budget-note">
+        These are example estimates, not live prices.
+        Actual costs depend on your travel style and season.
+    </p>
+
+
+    <!-- One Day Itinerary -->
+
+<section class="itinerary">
+
+    <h2>One Day in barcelona</h2>
+
+    <p class="section-description">
+        A suggested route to explore barcelona in one day.
+    </p>
+
+    <div class="itinerary-list">
+
+        <div class="itinerary-item">
+
+            <img
+                src="https://wallpapercat.com/w/full/6/0/2/783918-3840x2160-desktop-4k-sagrada-familia-background-image.jpg"
+                alt="Sagrada Família"
+            >
+
+            <div class="itinerary-info">
+                <span>09:00 AM</span>
+                <h3>Sagrada Família</h3>
+                <p>
+                    Start your day by visiting Barcelona’s most famous basilica.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="itinerary-item">
+
+            <img
+                src="https://images.trvl-media.com/place/6255373/82492ec8-28cf-4289-8e7c-8a0eda36332f.jpg"
+                alt="El Born"
+            >
+
+            <div class="itinerary-info">
+                <span>12:00 pM</span>
+                <h3>El Born </h3>
+                <p>
+                    Enjoy traditional Catalan food at a local restaurant.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="itinerary-item">
+
+            <img
+                src="https://wallpapercave.com/wp/wp4130863.jpg"
+                alt="Arc de Triomphe"
+            >
+
+            <div class="itinerary-info">
+                <span>03:00 PM</span>
+                <h3>Arc de Triomphe</h3>
+                <p>
+                    End your day with a walk along the Champs-Élysées and visit the Arc de Triomphe
+                </p>
+            </div>
+
+        </div>
+
+         <div class="itinerary-item">
+
+            <img
+                src="https://barselona.io/wp-content/uploads/2024/10/montjuic-castle.jpg"
+                alt="Montjuïc Castle"
+            >
+
+            <div class="itinerary-info">
+                <span>07:00 PM</span>
+                <h3>Montjuïc Castle </h3>
+                <p>
+                     Visit this historic hilltop castle and enjoy breathtaking panoramic views of Barcelona and the Mediterranean Sea.
+                </p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- Photo Spots -->
+    <div class="photo-spots">
+
+        <h2>Best Photo Spots</h2>
+
+        <div class="photo-grid">
+
+            <div class="photo-card">
+                <img
+                    src="https://bornbikebarcelona.com/wp-content/uploads/2022/08/IMG_0670-1.jpg"
+                    alt="Bunkers del Carmel"
+                >
+
+                <h3>Bunkers del Carmel</h3>
+                <p>Enjoy breathtaking panoramic views of Barcelona, especially at sunset</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Bunkers+del+Carmel+Barcelona"target="_blank">
+                    View Location
+                </a>
+            </div>
+
+
+            <div class="photo-card">
+                <img
+                    src="https://www.barcelo.com/guia-turismo/wp-content/uploads/ok-arc-de-triomf.jpg"
+                    alt="Arc de Triomf"
+                >
+
+                <h3>Arc de Triomf</h3>
+                <p>Capture beautiful photos of Barcelona’s iconic red-brick triumphal arch.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Arc+de+Triomf+Barcelona" target="_blank">
+                    View Location
+                </a>
+
+
+            </div>
+
+
+            <div class="photo-card">
+                <img
+                    src="https://www.barcelo.com/guia-turismo/wp-content/uploads/ok-playas-de-barcelona.jpg"
+                    alt="Barceloneta Beach"
+                >
+
+                <h3>Barceloneta Beach</h3>
+                <p>Capture relaxing seaside views and beautiful Mediterranean sunsets</p>
+               <a href="https://www.google.com/maps/search/?api=1&query=Barceloneta+Beach+Barcelona" target="_blank" rel="noopener noreferrer">
+                    View Location
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</section>
+
+  <!-- JavaScript -->
+    <script src="destination.js"></script>
+
+</body>
+
+</html>

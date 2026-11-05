@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explore Hawaii | TripMate</title>
+
+    <link rel="stylesheet" href="destination.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+
+        <div class="logo">TripMate</div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#destinations">Destinations</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Destination Hero -->
+   <section class="destination-hero hawaii-hero">
+
+        <div class="hero-content">
+
+            <p>EXPLORE USA</p>
+
+            <h1>Discover Hawaii</h1>
+
+            <span>
+                Explore the beauty, history and culture
+                of this amazing city.
+            </span>
+
+        </div>
+
+    </section>
+
+
+    <!-- City Information -->
+    <section class="city-info">
+
+        <h2>Know Before You Go</h2>
+
+        <div class="info-grid">
+
+            <!-- Language -->
+            <div class="info-card">
+                <h3>Language</h3>
+                <p>English, Hawaiian</p>
+            </div>
+
+            <!-- Currency -->
+            <div class="info-card">
+                <h3>Currency</h3>
+                <p>US Dollar (USD)</p>
+            </div>
+
+            <!-- Climate -->
+            <div class="info-card">
+                <h3>Climate</h3>
+                <p>Tropical</p>
+            </div>
+
+            <!-- Best Time -->
+            <div class="info-card">
+                <h3>Best Time to Visit</h3>
+                <p>Late Summer and fall</p>
+            </div>
+
+        </div>
+
+
+        <!-- Travel Tips -->
+        <div class="travel-tips">
+
+            <h3>Travel Tips</h3>
+
+            <p>
+                Check ocean conditions before swimming, Book popular activities in advance, Use sunscreen to help protect marine life.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Top Attractions -->
+    <section class="attractions">
+
+        <h2>Top Attractions</h2>
+
+        <p class="section-description">
+            Discover the most beautiful places in hawaii.
+        </p>
+
+
+        <div class="attraction-grid">
+
+            <!-- Attraction 1 -->
+            <div class="attraction-card">
+
+                <img
+                    src="https://cdn.sanity.io/images/nxpteyfv/goguides/e8c884a3f0e7ccaa7028c9aea9494b04e0b8b73b-1600x1066.jpg"
+                    alt="Waikiki Beach"
+                >
+
+                <div class="attraction-info">
+
+                    <h3>Waikiki Beach</h3>
+
+                    <p>
+                        Famous for its golden sand, ocean views, and lively atmosphere in Honolulu.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Attraction 2 -->
+            <div class="attraction-card">
+
+                <img
+                    src="https://loveoahu.org/wp-content/uploads/diamond-head-edited.jpg"
+                    alt="Diamond Head"
+                >
+
+                <div class="attraction-info">
+
+                    <h3>Diamond Head</h3>
+
+                    <p>
+                       A volcanic crater with a popular hiking trail and panoramic views of Oahu.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Attraction 3 -->
+            <div class="attraction-card">
+                
+                <img
+                    src="https://honolulutravels.com/wp-content/uploads/2026/01/Snorkeling-at-Hanauma-Bay-1.webp"
+                    alt="Hanauma Bay"
+                >
+
+                <div class="attraction-info">
+
+                    <h3>Hanauma Bay</h3>
+
+                    <p>
+                       A protected marine area known for its clear water and colorful reef fish.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Local Food -->
+
+<section class="local-food">
+
+    <h2>Taste of hawaii</h2>
+
+    <p class="section-description">
+        Discover the delicious flavors of hawaii.
+    </p>
+
+    <div class="food-slider">
+
+        <button class="food-btn" onclick="moveFood(-1)">
+            &#10094;
+        </button>
+
+        <div class="food-track" id="foodTrack">
+
+            <!-- Food 1 -->
+            <div class="food-card">
+
+                <img
+                    src="https://cdn.jwplayer.com/v2/media/lHDSfFae/poster.jpg?width=1280"
+                    alt="Loco Moco"
+                >
+
+                <div class="food-info">
+                    <h3>Loco Moco</h3>
+
+                    <p>
+                       A Hawaiian comfort food with rice, a burger patty, gravy, and a fried egg.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- Food 2 -->
+            <div class="food-card">
+
+                <img
+                    src="https://cdn.tasteatlas.com/images/recipes/60f9fa6062694a6b8e0127d578815525.jpg"
+                    alt="Hawaiian Pizza"
+                >
+
+                <div class="food-info">
+                    <h3>Hawaiian Pizza</h3>
+
+                    <p>
+                       A popular pizza topped with ham and pineapple.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- Food 3 -->
+            <div class="food-card">
+
+                <img
+                    src="https://dmlxzvnzyohme.cloudfront.net/2023/07/PBSFood-TGAR-S2-Relle_Malasadas-Two-Ways.jpg"
+                    alt="Malasadas"
+                >
+
+                <div class="food-info">
+                    <h3>Malasadas</h3>
+
+                    <p>
+                        Portuguese-style fried dough pastries that are popular in Hawaii.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- Food 4 -->
+            <div class="food-card">
+
+                <img
+                    src="https://www.beerkulture.com/wp-content/uploads/2026/08/blue-hawaiian-cocktail-with-pineapple-and-cherry.png"
+                    alt="Hawaiian POG Juice"
+                >
+
+                <div class="food-info">
+                    <h3>Hawaiian POG Juice</h3>
+
+                    <p>
+                        A tropical drink made with passion fruit, orange, and guava.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <button class="food-btn" onclick="moveFood(1)">
+            &#10095;
+        </button>
+
+    </div>
+
+</section>
+
+    <!-- Daily Travel Budget -->
+
+<section class="daily-budget">
+
+    <h2>Daily Travel Budget</h2>
+
+    <p class="section-description">
+        A simple estimate of your daily expenses in barcelona.
+    </p>
+
+    <div class="budget-grid">
+
+        <div class="budget-card">
+            <span class="budget-icon">🏨</span>
+            <h3>Accommodation</h3>
+            <p>Hotel or hostel</p>
+            <strong>$50–120</strong>
+        </div>
+
+        <div class="budget-card">
+            <span class="budget-icon">🍽️</span>
+            <h3>Food</h3>
+            <p>Meals and drinks</p>
+            <strong>$30–60</strong>
+        </div>
+
+        <div class="budget-card">
+            <span class="budget-icon">🚋</span>
+            <h3>Transport</h3>
+            <p>Public transportation</p>
+            <strong>$10–40</strong>
+        </div>
+
+        <div class="budget-card">
+            <span class="budget-icon">🎟️</span>
+            <h3>Activities</h3>
+            <p>Museums and attractions</p>
+            <strong>$20–80</strong>
+        </div>
+
+    </div>
+
+    <p class="budget-note">
+        These are example estimates, not live prices.
+        Actual costs depend on your travel style and season.
+    </p>
+
+
+    <!-- One Day Itinerary -->
+
+<section class="itinerary">
+
+    <h2>One Day in hawaii</h2>
+
+    <p class="section-description">
+        A suggested route to explore hawaii in one day.
+    </p>
+
+    <div class="itinerary-list">
+
+        <div class="itinerary-item">
+
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3a-9Lhgf2WqevGPanELC1D4254pNjqhX7b4b9zwzcY6Fg23rSfb_bxdLL&s=10"
+                alt="Iolani Palace"
+            >
+
+            <div class="itinerary-info">
+                <span>09:00 AM</span>
+                <h3>Iolani Palace</h3>
+                <p>
+                    Explore the historic royal palace in downtown Honolulu.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="itinerary-item">
+
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZKFyyVdQha8jikaT8HtyBtHO1gLKoaIog-sXOQWeF5O_lDt-BB2Uae0Ss&s=10"
+                alt="Manoa Falls"
+            >
+
+            <div class="itinerary-info">
+                <span>12:00 PM</span>
+                <h3>Manoa Falls </h3>
+                <p>
+                    Take a scenic walk through lush tropical forest to the waterfall.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="itinerary-item">
+
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbkcnr_yWbh7t_VH-fRAFwwkc1VEvRHU5PJ_gevOknEg&s=10"
+                alt="Byodo-In Temple"
+            >
+
+            <div class="itinerary-info">
+                <span>02:00 PM</span>
+                <h3>Byodo-In Temple</h3>
+                <p>
+                   Visit a peaceful Japanese-style temple surrounded by mountains and gardens.
+                </p>
+            </div>
+
+        </div>
+
+         <div class="itinerary-item">
+
+            <img
+                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/ef/ad/3d/caption.jpg?w=1200&h=-1&s=1"
+                alt="Haleiwa Town"
+            >
+
+            <div class="itinerary-info">
+                <span>07:00 PM</span>
+                <h3>Haleiwa Town </h3>
+                <p>
+                    Stroll through this laid-back North Shore town and browse its local shops.
+                </p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- Photo Spots -->
+    <div class="photo-spots">
+
+        <h2>Best Photo Spots</h2>
+
+        <div class="photo-grid">
+
+            <div class="photo-card">
+                <img
+                    src="https://images.trvl-media.com/place/6069027/030676e3-9b2b-4bea-81ce-8dcfdbc795e9.jpg"
+                    alt="Lanikai Beach"
+                >
+
+                <h3>Lanikai Beach</h3>
+                <p>Enjoy A beautiful beach with turquoise water and soft white sand.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Lanikai+Beach+Hawaii"target="_blank">
+                    View Location
+                </a>
+            </div>
+
+
+            <div class="photo-card">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Jz8sLZWKMIad9LC9MmBquAlJJAx6bfpcGAyOqPN1EmEhHXe7JtFySm-c&s=10"
+                    alt="Nuʻuanu Pali Lookout"
+                >
+
+                <h3>Nuʻuanu Pali Lookout</h3>
+                <p>Explore a scenic viewpoint with breathtaking mountain and valley views.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Nuuanu+Pali+Lookout+Oahu+Hawaii&utm" target="_blank">
+                    View Location
+                </a>
+
+
+            </div>
+
+
+            <div class="photo-card">
+                <img
+                    src="https://www.hawaiiactivities.com/travelguide/wp-content/uploads/Hawaii_Oahu_Kualoa-Regional-Park_shutterstock_390848932-scaled-uai-1440x961.jpg"
+                    alt="Kualoa Regional Park"
+                >
+
+                <h3>Kualoa Regional Park</h3>
+                <p>Take a walt to peaceful park with stunning ocean and mountain scenery.</p>
+               <a href="https://www.google.com/maps/search/?api=1&query=Kualoa+Regional+Park+Oahu" target="_blank" rel="noopener noreferrer">
+                    View Location
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</section>
+
+  <!-- JavaScript -->
+    <script src="destination.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,671 @@
+/* General Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf9f6;
+    color: #243447;
+}
+
+
+/* Navigation */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 6%;
+    background-color: #ffffff;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #243447;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #243447;
+    font-size: 15px;
+}
+
+
+/* Destination Hero */
+
+.destination-hero {
+    min-height: 570px;
+    margin: 20px 4%;
+    border-radius: 20px;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(16, 31, 43, 0.75),
+            rgba(16, 31, 43, 0.1)
+        ),
+        url("https://images.alphacoders.com/533/thumb-1920-533992.jpg")
+        center/cover no-repeat;
+
+    display: flex;
+    align-items: center;
+    padding: 60px;
+}
+
+.hero-content {
+    max-width: 550px;
+    color: white;
+}
+
+.hero-content > p {
+    letter-spacing: 4px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.hero-content h1 {
+    font-size: 54px;
+    margin-bottom: 18px;
+}
+
+.hero-content > span {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* Paris Hero */
+
+.destination-hero.paris-hero {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(16, 31, 43, 0.65),
+            rgba(16, 31, 43, 0.1)
+        ),
+        url("https://www.royalcaribbean.com/media-assets/pmc/content/dam/shore-x/paris-le-havre-leh/lh17-paris-sightseeing-without-lunch/stock-photo-skyline-of-paris-with-eiffel-tower-at-sunset-in-paris-france-eiffel-tower-is-one-of-the-most-752725282.jpg?w=1920")
+        center/cover no-repeat;
+}
+
+/* Rome Hero */
+
+.destination-hero.rome-hero {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(16, 31, 43, 0.75),
+            rgba(16, 31, 43, 0.1)
+        ),
+        url("https://images.pexels.com/photos/27530585/pexels-photo-27530585/free-photo-of-skyline-of-rome-at-sunset.jpeg")
+        center/cover no-repeat;
+}
+
+/* Barcelona Hero */
+
+.destination-hero.barcelona-hero {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(16, 31, 43, 0.75),
+            rgba(16, 31, 43, 0.1)
+        ),
+        url("https://wallpapercat.com/w/full/f/2/2/292821-3840x2160-desktop-4k-barcelona-city-background-photo.jpg")
+        center/cover no-repeat;
+}
+
+/* Bangkok Hero */
+
+.destination-hero.bangkok-hero {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(16, 31, 43, 0.75),
+            rgba(16, 31, 43, 0.1)
+        ),
+        url("https://images7.alphacoders.com/472/thumb-1920-472347.jpg")
+        center/cover no-repeat;
+}
+
+/* Santorini Hero */
+.destination-hero.santorini-hero {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(16, 31, 43, 0.75),
+            rgba(16, 31, 43, 0.1)
+        ),
+        url("https://getwallpapers.com/wallpaper/full/6/7/e/1039782-santorini-wallpaper-3840x2160-ios.jpg")
+        center/cover no-repeat;
+}
+
+/* Bali Hero */
+.destination-hero.bali-hero {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(16, 31, 43, 0.75),
+            rgba(16, 31, 43, 0.1)
+        ),
+        url("https://images.trvl-media.com/place/1054/6c629a7c-5beb-4ec9-9b84-975a229200dc.jpg")
+        center/cover no-repeat;
+}
+
+/* Hawaii Hero */
+.destination-hero.hawaii-hero {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(16, 31, 43, 0.75),
+            rgba(16, 31, 43, 0.1)
+        ),
+        url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/4a/db/d7/the-world-famous-waikiki.jpg?w=1400&h=-1&s=1")
+        center/cover no-repeat;
+}
+
+/* tokyo Hero */
+.destination-hero.tokyo-hero {
+    background:
+        linear-gradient(
+            90deg,
+            rgba(16, 31, 43, 0.75),
+            rgba(16, 31, 43, 0.1)
+        ),
+        url("https://images.ctfassets.net/ov8o7v78mnye/15qTQslk5Fr3Rhv5lkmfK1/e2cff5e1d817a75dccbed7fa62442c3d/Mount-Fuji-and-Tokyo-skyline-Image-credit-yongyuan.webp")
+        center/cover no-repeat;
+}
+
+
+/* Plan My Trip */
+
+.trip-planner {
+    margin-top: 35px;
+}
+
+.trip-planner h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.trip-planner input {
+    padding: 14px;
+    width: 210px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.trip-planner button {
+    padding: 14px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #d5b88a;
+    color: #243447;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.trip-planner button:hover {
+    background-color: #c5a474;
+}
+
+#tripResult {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+
+/* City Information */
+
+.city-info {
+    padding: 65px 7%;
+}
+
+.city-info > h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.info-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+.info-card h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.info-card p {
+    color: #718096;
+    font-size: 14px;
+}
+
+.travel-tips {
+    background-color: white;
+    padding: 28px;
+    border-radius: 14px;
+    margin-top: 25px;
+    line-height: 1.8;
+}
+
+.travel-tips h3 {
+    margin-bottom: 10px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .destination-hero {
+        min-height: 600px;
+        padding: 30px;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .info-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .trip-planner input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .trip-planner button {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .destination-hero {
+        padding: 22px;
+    }
+
+    .nav-links {
+        gap: 12px;
+    }
+
+}
+
+/* Top Attractions */
+
+.attractions {
+    padding: 40px 7% 70px;
+}
+
+.attractions h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.section-description {
+    color: #718096;
+    margin-bottom: 30px;
+}
+
+.attraction-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.attraction-card {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.attraction-card:hover {
+    transform: translateY(-6px);
+}
+
+.attraction-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.attraction-info {
+    padding: 22px;
+}
+
+.attraction-info h3 {
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.attraction-info p {
+    color: #718096;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .attraction-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* Local Food */
+
+.local-food {
+    padding: 40px 7% 70px;
+}
+
+.local-food h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.food-slider {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.food-track {
+    display: flex;
+    flex: 1;
+    gap: 25px;
+    overflow: hidden;
+    min-width: 0;
+    scroll-behavior: smooth;
+}
+
+.food-card {
+    flex: 0 0 calc((100% - 25px) / 2);
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.food-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.food-info {
+    padding: 20px;
+}
+
+.food-info h3 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.food-info p {
+    color: #718096;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.food-btn {
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    background-color: #243447;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.food-btn:hover {
+    background-color: #d5b88a;
+    color: #243447;
+}
+
+
+/* Food Responsive */
+
+@media (max-width: 768px) {
+
+    .food-card {
+        flex-basis: 100%;
+    }
+
+    .food-slider {
+        gap: 10px;
+    }
+
+    .food-track {
+        gap: 15px;
+    }
+
+}
+
+/* Daily Travel Budget */
+
+.daily-budget {
+    padding: 40px 7% 70px;
+}
+
+.daily-budget h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.budget-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.budget-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.budget-icon {
+    font-size: 28px;
+}
+
+.budget-card h3 {
+    font-size: 17px;
+    margin: 15px 0 8px;
+}
+
+.budget-card p {
+    color: #718096;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.budget-card strong {
+    color: #243447;
+    font-size: 20px;
+}
+
+.budget-note {
+    color: #718096;
+    font-size: 13px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+
+/* Budget Responsive */
+
+@media (max-width: 768px) {
+
+    .budget-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .budget-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* One Day Itinerary */
+
+.itinerary {
+    padding: 40px 7% 70px;
+}
+
+.itinerary h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.itinerary-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.itinerary-item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.itinerary-item img {
+    width: 280px;
+    height: 190px;
+    object-fit: cover;
+}
+
+.itinerary-info {
+    padding: 20px;
+}
+
+.itinerary-info span {
+    color: #b08d57;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.itinerary-info h3 {
+    margin: 10px 0;
+    font-size: 21px;
+}
+
+.itinerary-info p {
+    color: #718096;
+    line-height: 1.7;
+}
+
+
+/* Photo Spots */
+
+.photo-spots {
+    margin-top: 65px;
+}
+
+.photo-spots h2 {
+    margin-bottom: 25px;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.photo-card {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.photo-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.photo-card h3 {
+    margin: 18px 20px 8px;
+}
+
+.photo-card p {
+    margin: 0 20px 15px;
+    color: #718096;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.photo-card a {
+    margin: 0 20px;
+    color: #243447;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.photo-card a:hover {
+    color: #b08d57;
+}
+
+
+/* Itinerary Responsive */
+
+@media (max-width: 768px) {
+
+    .itinerary-item {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .itinerary-item img {
+        width: 100%;
+        height: 230px;
+    }
+
+    .photo-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
