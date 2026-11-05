@@ -14,18 +14,23 @@ Built With
 - HTML
 - CSS
 - JavaScript
+  
 Getting Started
 1. Download or clone this repository.
 2. Open index.html in your web browser.
 No build tools or package installation are required for the current
 static website.
 Project Structure
+
 TripMate/
 ├── index.html
 ├── style.css
 └── (destination pages and other project assets)
+
+
 Author
 Designed and developed by Melisa Lotfi Azar.
+
 License
 This project is available for viewing and learning purposes. Contact the
 author before reusing or redistributing the project.
