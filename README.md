@@ -1,5 +1,5 @@
-TripMate | Travel Planner
-TripMate is a travel planning website designed to help users explore
+**TripMate | Travel Planner**
+**TripMate** is a travel planning website designed to help users explore
 destinations around the world, discover popular attractions, and plan
 their next adventure.
 Features
